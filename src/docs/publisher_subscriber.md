@@ -1,9 +1,9 @@
 # Publisher/Subscriber以及Topic消息机制的实现
 ## 目标
-1. 定义一个Publisher，在person_publisher.cpp中实现
-2. 定义一个Subscriber，在person_subscriber.cpp中实现
-3. 定义一个Topic message，在Person.msg中实现
-4. 实现话题消息通信
+自定义一个话题消息，名为/person_info，该消息由person_publisher负责发布, 并由person_subscriber负责接收和处理。
+1. 定义一个Topic，在Person.msg中实现
+2. 定义一个Publisher，在person_publisher.cpp中实现
+3. 定义一个Subscriber，在person_subscriber.cpp中实现
 ---
 工程结构：最顶层目录为`~/catkin_ws/`
 ```
